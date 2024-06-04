@@ -47,8 +47,6 @@ public class MyQuickSort {
         }
     }
 
-//    static Comparator<? super E> comparator = ;
-
     public static <E> void quickSort(List<E> list, int low, int high, Comparator<? super E> comparator) {
         int i = low;
         int j = high;
